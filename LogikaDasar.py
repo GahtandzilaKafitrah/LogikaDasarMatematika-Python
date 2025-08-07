@@ -45,13 +45,13 @@ def userinput():
         print(f"{'S' : <10} {'B' : <10} {'->' : <10} {'Benar' : <10}")
     elif a == "S" and b == "->" and c == "S":
         print(f"{'S' : <10} {'S' : <10} {'->' : <10} {'Benar' : <10}")
-    elif a == "B" and b == "-->" and c == "B":
+    elif a == "B" and b == "<->" and c == "B":
         print(f"{'B' : <10} {'B' : <10} {'<->' : <10} {'Benar' : <10}")
-    elif a == "B" and b =="-->" and c == "S":
+    elif a == "B" and b =="<->" and c == "S":
         print(f"{'B' : <10} {'S' : <10} {'<->' : <10} {'Salah' : <10}")
-    elif a == "S" and b == "-->" and c == "B":
+    elif a == "S" and b == "<->" and c == "B":
         print(f"{'S' : <10} {'B' : <10} {'<->' : <10} {'Salah' : <10}")
-    elif a == "S" and b == "-->" and c == "S":
+    elif a == "S" and b == "<->" and c == "S":
         print(f"{'S' : <10} {'S' : <10} {'<->' : <10} {'Benar' : <10}")
     else:
         print("Mohon Masukkan sesuai perintah !!!\n")
